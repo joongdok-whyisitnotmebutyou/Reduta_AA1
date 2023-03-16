@@ -1,0 +1,14 @@
+let n = prompt("Enter your name.", "Justine Wright");
+let g = prompt("Please enter your gender.", "Rather not say");
+let u = prompt("Please enter a username.", "Jongdok-Whyisitnotmebutyou");
+let d = prompt("Describe yourself", "What is life?");
+let bd = prompt("When were your born?", "Year");
+let p = prompt("File source of your pfp", "----");
+let dt = new Date().getFullYear();
+let a = d - bd;
+document.getElementById("fname").innerHTML = n;
+document.getElementById("gender").innerHTML = g;
+document.getElementById("username").innerHTML = u;
+document.getElementById("desc").innerHTML = d;
+document.getElementById("year").innerHTML = bd;
+document.getElementById("age").innerHTML = a;
